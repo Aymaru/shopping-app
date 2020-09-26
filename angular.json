@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "shopping-app"
+    }
+  },
+  "defaultProject": "shopping-app",
+  "cli": {
+    "analytics": "cc148eea-619d-4d7c-8e9c-93c5c6541f4d"
+  }
 }
