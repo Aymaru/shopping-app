@@ -1,9 +1,9 @@
 
-import { Subject, Subscription } from 'rxjs';
+import { Subject } from 'rxjs';
 
 import { Ingredient } from '../shared/ingredient.model';
 
-export class ShoppingListService {
+export class ShoppingListService { 
 
     ingredientsChanged = new Subject<Ingredient[]>()
     startedEditing = new Subject<number>();
