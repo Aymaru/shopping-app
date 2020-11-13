@@ -44,3 +44,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#Backup files.
+/src/backup
+*.bak
+
+/src/app/auth/auth.service.ts
